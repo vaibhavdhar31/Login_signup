@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [ReactiveFormsModule, CommonModule],
   template: `
-  <div class="container mt-5">
+  <div class="container mt-5" >
     <h2>Login</h2>
     <form [formGroup]="loginForm" (ngSubmit)="onLogin()" class="card p-4 shadow">
 
